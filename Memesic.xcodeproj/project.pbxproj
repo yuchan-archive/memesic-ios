@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033963AB3CAA43BDA1B5BD16 /* libPods-MemesicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8271623A594D5CAA1900A6 /* libPods-MemesicTests.a */; };
+		70A19D6519BCE3300076CD75 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A19D6419BCE3300076CD75 /* libsqlite3.0.dylib */; };
 		70C3F6AC19BC9D1F00CF7D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6AB19BC9D1F00CF7D22 /* main.m */; };
 		70C3F6AF19BC9D1F00CF7D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6AE19BC9D1F00CF7D22 /* AppDelegate.m */; };
-		70C3F6B219BC9D1F00CF7D22 /* Memesic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6B019BC9D1F00CF7D22 /* Memesic.xcdatamodeld */; };
 		70C3F6B519BC9D1F00CF7D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6B419BC9D1F00CF7D22 /* ViewController.m */; };
 		70C3F6B819BC9D1F00CF7D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C3F6B619BC9D1F00CF7D22 /* Main.storyboard */; };
 		70C3F6BA19BC9D1F00CF7D22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C3F6B919BC9D1F00CF7D22 /* Images.xcassets */; };
 		70C3F6C619BC9D1F00CF7D22 /* MemesicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6C519BC9D1F00CF7D22 /* MemesicTests.m */; };
+		70C3F6DB19BCB21300CF7D22 /* GDCoreAudioUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6D719BCB21300CF7D22 /* GDCoreAudioUtils.c */; };
+		70C3F6DC19BCB21300CF7D22 /* GDSoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3F6DA19BCB21300CF7D22 /* GDSoundEngine.m */; };
+		70C3F6DE19BCB2ED00CF7D22 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C3F6DD19BCB2ED00CF7D22 /* CoreAudio.framework */; };
+		70C3F6E019BCB2F400CF7D22 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C3F6DF19BCB2F400CF7D22 /* AudioToolbox.framework */; };
+		DAEABF97122841EC9933A639 /* libPods-Memesic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E8A0C724D94E0995F90B7F /* libPods-Memesic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C8271623A594D5CAA1900A6 /* libPods-MemesicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MemesicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8A0C724D94E0995F90B7F /* libPods-Memesic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Memesic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A19D6419BCE3300076CD75 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		70C3F6A619BC9D1F00CF7D22 /* Memesic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memesic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C3F6AA19BC9D1F00CF7D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C3F6AB19BC9D1F00CF7D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70C3F6AD19BC9D1F00CF7D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70C3F6AE19BC9D1F00CF7D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70C3F6B119BC9D1F00CF7D22 /* Memesic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memesic.xcdatamodel; sourceTree = "<group>"; };
 		70C3F6B319BC9D1F00CF7D22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		70C3F6B419BC9D1F00CF7D22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		70C3F6B719BC9D1F00CF7D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +48,15 @@
 		70C3F6BF19BC9D1F00CF7D22 /* MemesicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemesicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C3F6C419BC9D1F00CF7D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C3F6C519BC9D1F00CF7D22 /* MemesicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemesicTests.m; sourceTree = "<group>"; };
+		70C3F6D719BCB21300CF7D22 /* GDCoreAudioUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GDCoreAudioUtils.c; sourceTree = "<group>"; };
+		70C3F6D819BCB21300CF7D22 /* GDCoreAudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCoreAudioUtils.h; sourceTree = "<group>"; };
+		70C3F6D919BCB21300CF7D22 /* GDSoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSoundEngine.h; sourceTree = "<group>"; };
+		70C3F6DA19BCB21300CF7D22 /* GDSoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSoundEngine.m; sourceTree = "<group>"; };
+		70C3F6DD19BCB2ED00CF7D22 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		70C3F6DF19BCB2F400CF7D22 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		70C3F6E519BCD28C00CF7D22 /* Memesic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memesic-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CD88309337C4A00BAE8FEE8 /* Pods-Memesic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memesic.xcconfig"; path = "Pods/Pods-Memesic.xcconfig"; sourceTree = "<group>"; };
+		AD50779FAB714AD38805A960 /* Pods-MemesicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemesicTests.xcconfig"; path = "Pods/Pods-MemesicTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A19D6519BCE3300076CD75 /* libsqlite3.0.dylib in Frameworks */,
+				70C3F6E019BCB2F400CF7D22 /* AudioToolbox.framework in Frameworks */,
+				70C3F6DE19BCB2ED00CF7D22 /* CoreAudio.framework in Frameworks */,
+				DAEABF97122841EC9933A639 /* libPods-Memesic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033963AB3CAA43BDA1B5BD16 /* libPods-MemesicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +85,13 @@
 		70C3F69D19BC9D1F00CF7D22 = {
 			isa = PBXGroup;
 			children = (
+				70C3F6D619BCB21300CF7D22 /* Vendor */,
+				70C3F6D419BCB1F800CF7D22 /* Frameworks */,
 				70C3F6A819BC9D1F00CF7D22 /* Memesic */,
 				70C3F6C219BC9D1F00CF7D22 /* MemesicTests */,
 				70C3F6A719BC9D1F00CF7D22 /* Products */,
+				7CD88309337C4A00BAE8FEE8 /* Pods-Memesic.xcconfig */,
+				AD50779FAB714AD38805A960 /* Pods-MemesicTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,8 +113,8 @@
 				70C3F6B419BC9D1F00CF7D22 /* ViewController.m */,
 				70C3F6B619BC9D1F00CF7D22 /* Main.storyboard */,
 				70C3F6B919BC9D1F00CF7D22 /* Images.xcassets */,
-				70C3F6B019BC9D1F00CF7D22 /* Memesic.xcdatamodeld */,
 				70C3F6A919BC9D1F00CF7D22 /* Supporting Files */,
+				70C3F6E519BCD28C00CF7D22 /* Memesic-Bridging-Header.h */,
 			);
 			path = Memesic;
 			sourceTree = "<group>";
@@ -119,6 +145,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		70C3F6D419BCB1F800CF7D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70A19D6419BCE3300076CD75 /* libsqlite3.0.dylib */,
+				70C3F6DF19BCB2F400CF7D22 /* AudioToolbox.framework */,
+				70C3F6DD19BCB2ED00CF7D22 /* CoreAudio.framework */,
+				31E8A0C724D94E0995F90B7F /* libPods-Memesic.a */,
+				1C8271623A594D5CAA1900A6 /* libPods-MemesicTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C3F6D619BCB21300CF7D22 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				70C3F6D719BCB21300CF7D22 /* GDCoreAudioUtils.c */,
+				70C3F6D819BCB21300CF7D22 /* GDCoreAudioUtils.h */,
+				70C3F6D919BCB21300CF7D22 /* GDSoundEngine.h */,
+				70C3F6DA19BCB21300CF7D22 /* GDSoundEngine.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70C3F6C919BC9D1F00CF7D22 /* Build configuration list for PBXNativeTarget "Memesic" */;
 			buildPhases = (
+				552DDCDDE29247F99FE780B9 /* Check Pods Manifest.lock */,
 				70C3F6A219BC9D1F00CF7D22 /* Sources */,
 				70C3F6A319BC9D1F00CF7D22 /* Frameworks */,
 				70C3F6A419BC9D1F00CF7D22 /* Resources */,
+				887628E065BC42E59AB0D85E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70C3F6CC19BC9D1F00CF7D22 /* Build configuration list for PBXNativeTarget "MemesicTests" */;
 			buildPhases = (
+				DA03810B0B204581B9889C22 /* Check Pods Manifest.lock */,
 				70C3F6BB19BC9D1F00CF7D22 /* Sources */,
 				70C3F6BC19BC9D1F00CF7D22 /* Frameworks */,
 				70C3F6BD19BC9D1F00CF7D22 /* Resources */,
+				A90E7EEE2E39445996959898 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +221,7 @@
 				TargetAttributes = {
 					70C3F6A519BC9D1F00CF7D22 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = KHFXF6N2QE;
 					};
 					70C3F6BE19BC9D1F00CF7D22 = {
 						CreatedOnToolsVersion = 6.0;
@@ -213,15 +267,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		552DDCDDE29247F99FE780B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		887628E065BC42E59AB0D85E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Memesic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90E7EEE2E39445996959898 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MemesicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA03810B0B204581B9889C22 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70C3F6A219BC9D1F00CF7D22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70C3F6AF19BC9D1F00CF7D22 /* AppDelegate.m in Sources */,
-				70C3F6B219BC9D1F00CF7D22 /* Memesic.xcdatamodeld in Sources */,
+				70C3F6DB19BCB21300CF7D22 /* GDCoreAudioUtils.c in Sources */,
 				70C3F6B519BC9D1F00CF7D22 /* ViewController.m in Sources */,
 				70C3F6AC19BC9D1F00CF7D22 /* main.m in Sources */,
+				70C3F6DC19BCB21300CF7D22 /* GDSoundEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,28 +453,44 @@
 		};
 		70C3F6CA19BC9D1F00CF7D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD88309337C4A00BAE8FEE8 /* Pods-Memesic.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Memesic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Memesic/Memesic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		70C3F6CB19BC9D1F00CF7D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD88309337C4A00BAE8FEE8 /* Pods-Memesic.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Memesic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Memesic/Memesic-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		70C3F6CD19BC9D1F00CF7D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD50779FAB714AD38805A960 /* Pods-MemesicTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -376,6 +510,7 @@
 		};
 		70C3F6CE19BC9D1F00CF7D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD50779FAB714AD38805A960 /* Pods-MemesicTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -408,6 +543,7 @@
 				70C3F6CB19BC9D1F00CF7D22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70C3F6CC19BC9D1F00CF7D22 /* Build configuration list for PBXNativeTarget "MemesicTests" */ = {
 			isa = XCConfigurationList;
@@ -416,21 +552,9 @@
 				70C3F6CE19BC9D1F00CF7D22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		70C3F6B019BC9D1F00CF7D22 /* Memesic.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				70C3F6B119BC9D1F00CF7D22 /* Memesic.xcdatamodel */,
-			);
-			currentVersion = 70C3F6B119BC9D1F00CF7D22 /* Memesic.xcdatamodel */;
-			path = Memesic.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 70C3F69E19BC9D1F00CF7D22 /* Project object */;
 }
